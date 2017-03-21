@@ -213,7 +213,7 @@ img {
 .site-description {
   margin: -8px 0 0 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
 
   @include mobile {
     margin: 3px 0;
@@ -224,7 +224,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   color: #fff;
 
   @include mobile {

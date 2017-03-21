@@ -10,6 +10,10 @@
   overflow: scroll;
 }
 
+pre.highlight {
+  overflow: hidden;
+}
+
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
