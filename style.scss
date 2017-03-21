@@ -65,6 +65,11 @@ h4 {
 p {
   font-size: 14px;
   margin: 14px 0;
+  overflow: hidden;
+}
+
+pre {
+  font-size: 12px;
 }
 
 a {
@@ -78,6 +83,7 @@ a {
 
 ul, ol {
   margin: 15px 0;
+  font-size: 14px;
   padding-left: 30px;
 }
 
@@ -115,8 +121,11 @@ img {
 }
 
 .date {
-  font-style: italic;
-  color: $gray;
+  color: #7986CB;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 40px;
+  text-align: right;
 }
 
 // Specify the color of the selection
