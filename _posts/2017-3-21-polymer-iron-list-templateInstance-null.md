@@ -34,4 +34,4 @@ Como estaréis imaginando, también podía haberlo metido dentro de cualquier ot
 
 ## Referencias
 
-* [https://github.com/PolymerElements/iron-list/issues/225](https://github.com/PolymerElements/iron-list/issues/225)
+* [github.com](https://github.com/PolymerElements/iron-list/issues/225)

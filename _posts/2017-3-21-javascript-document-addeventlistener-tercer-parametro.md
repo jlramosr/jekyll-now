@@ -56,6 +56,6 @@ La respuesta es sencilla: al hacer clic sobre el elemento *button* sólo se impr
 
 ## Referencias
 
-* [https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
-* [https://www.arkaitzgarro.com/javascript/capitulo-15.html](https://www.arkaitzgarro.com/javascript/capitulo-15.html)
-* [http://www.codexexempla.org/curso/curso_4_3_e.php](http://www.codexexempla.org/curso/curso_4_3_e.php)
+* [developer.mozilla.org](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
+* [arkaitzgarro.com](https://www.arkaitzgarro.com/javascript/capitulo-15.html)
+* [odexexempla.org](http://www.codexexempla.org/curso/curso_4_3_e.php)
