@@ -42,7 +42,7 @@ En este caso, la propagación sería *button*-*div*-*body*. Es lo que se llama *
 
 Cuando descrubrí este diagrama, lo comprendí todo en cuestión de segundos:
 
-![true => Fase de caputura, false => Fase de burbuha](../images/2017-3-21-javascript-document-addeventlistener-tercer-parametro.png)
+![true => Fase de caputura, false => Fase de burbuja](../images/2017-3-21-javascript-document-addeventlistener-tercer-parametro.png)
 
 Con todo esto, ¿qué ocurriría si tuviéramos el siguiente código?
 
@@ -53,6 +53,8 @@ Con todo esto, ¿qué ocurriría si tuviéramos el siguiente código?
         }, false);
 
 La respuesta es sencilla: al hacer clic sobre el elemento *button* sólo se imprimiría por consola el elemento *button*. La función *stopPropagation* corta el flujo de eventos del DOM, por lo que la fase de burbuja terminaría. Si, en cambio, el tercer parámetro fuese *true* (o directamente lo dejáramos en blanco), el elemento a mostrar por consola sería el elemento padre *body*.
+
+Recuerda: ***yo.addEventListener(evento,listener,false)* => YO PRIMERO**
 
 ## Referencias
 
